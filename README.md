@@ -10,7 +10,7 @@ A simple **public API** built with **Node.js & Express**, providing essential in
 
 ## 📌 API Documentation  
 
-### **🔹 Base URL**  
+### **🔹 Base URL**
 
 
 
@@ -27,3 +27,36 @@ A simple **public API** built with **Node.js & Express**, providing essential in
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/yourusername/your-repo"
 }
+```
+
+
+### **🔹 Setup Instructions**
+### 1️⃣ Clone the repository
+```sh
+git clone https://github.com/Maticmania/hng12-backend-stage-0.git
+cd hng12-backend-stage-0
+```
+### 2️⃣ Install dependencies
+```sh
+npm install
+``` 
+
+### 3️⃣ Create a .env file and add:
+```.env
+PORT=3040
+EMAIL=your-email@example.com
+GITHUB_URL=https://github.com/yourusername/your-repo
+```
+
+### 4️⃣ Start the server
+```sh
+node index.js
+```
+
+### Open your browser or Postman and visit:
+```sh
+http://localhost:3040/
+```
+
+### You need backend developer
+[Hire node js develoer](https://hng.tech/hire/nodejs-developers)
